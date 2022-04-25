@@ -28,7 +28,7 @@ public class Exception {
                 try {
                     value = Integer.parseInt(arr[i][x]);
                 } catch (NumberFormatException e) {
-                    throw new MyArrayDataException("incorrect data in arr["+ i + "][" + x + "]");
+                    throw new MyArrayDataException("incorrect data in arr[" + i + "][" + x + "]");
                 }
                 sum += value;
             }
@@ -36,3 +36,4 @@ public class Exception {
         return sum;
     }
 }
+
