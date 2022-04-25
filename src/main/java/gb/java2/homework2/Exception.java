@@ -8,13 +8,13 @@ public class Exception {
                 arr[i][x] = "3";
             }
         }
-       try {
-           System.out.println(sumArr(arr));
-       } catch (MyArraySizeException e) {
-           System.out.println("Invalid size");
-       } catch (MyArrayDataException e) {
-           System.out.println("invalid format");
-       }
+        try {
+            System.out.println(sumArr(arr));
+        } catch (MyArraySizeException e) {
+            System.out.println("Invalid size");
+        } catch (MyArrayDataException e) {
+            System.out.println("invalid format");
+        }
     }
 
     public static int sumArr(String[][] arr) {
